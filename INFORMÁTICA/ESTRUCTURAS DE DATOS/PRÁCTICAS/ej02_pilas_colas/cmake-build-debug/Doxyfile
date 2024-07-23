@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 2. Pilas y Colas"
+OUTPUT_DIRECTORY       = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej02_pilas_colas/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej02_pilas_colas/estudiante/include /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej02_pilas_colas/estudiante/src /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej02_pilas_colas/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej02_pilas_colas/estudiante/doc
+EXTRACT_PRIVATE	       = NO

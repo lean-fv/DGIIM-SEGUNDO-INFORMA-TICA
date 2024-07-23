@@ -1,0 +1,11 @@
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/image.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/negativo.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/subimagen.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/zoom.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/icono.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/contraste.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/barajar.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/analisis_eficiencia.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/doc_doxygen.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+#Prueba archivo formato cron 4.12.
+
+# Minuto | Hora | Día de mes | Mes | Día de la semana | Orden
+
+* * * * * /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/SO/ACTIVIDADES/4_12.sh

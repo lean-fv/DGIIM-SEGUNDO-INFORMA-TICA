@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aux_funcs.h
+string
+-
+tree.h
+../include/tree.h
+
+../include/node.tpp
+cassert
+-
+tree.h
+../include/tree.h
+
+../include/tree.h
+queue
+-
+string
+-
+tree.tpp
+../include/tree.tpp
+node.tpp
+../include/node.tpp
+
+../include/tree.tpp
+tree.h
+../include/tree.h
+iostream
+-
+
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/src/4_tree_ordered_insertion.cpp
+iostream
+-
+string
+-
+tree.h
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/src/tree.h
+aux_funcs.h
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/src/aux_funcs.h
+

@@ -1,0 +1,8 @@
+<map id="include/dictionary.h" name="include/dictionary.h">
+<area shape="rect" id="node2" href="$solver_8h.html" title="Fichero de cabecera para la clase Solver. " alt="" coords="5,87,119,114"/>
+<area shape="rect" id="node3" href="$partida__letras_8cpp.html" title="Main de prueba de los métodos de la clase Solver. " alt="" coords="35,169,182,196"/>
+<area shape="rect" id="node4" href="$cantidad__letras_8cpp.html" title="Main de prueba de las funciones getOccurrences y getUsages. " alt="" coords="194,87,351,114"/>
+<area shape="rect" id="node5" href="$diccionario_8cpp.html" title="Main de prueba para el iterador de diccionario iterator (no eficiente). " alt="" coords="375,87,506,114"/>
+<area shape="rect" id="node6" href="$dictionary_8cpp.html" title="Fichero de implementación de los métodos clase Dictionary. " alt="" coords="530,87,655,114"/>
+<area shape="rect" id="node7" href="$palabras__validas__diccionario_8cpp.html" title="Main de prueba para el iterador de diccionario possible_words_iterator (eficiente). " alt="" coords="679,80,821,121"/>
+</map>

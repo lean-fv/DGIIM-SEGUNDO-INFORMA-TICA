@@ -1,0 +1,8 @@
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/burbuja.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/heapsort.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/insercion.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/mergesort.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/quicksort.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/seleccion.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

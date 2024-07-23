@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 3. Contenedores no lineales - Juego de las Letras"
+OUTPUT_DIRECTORY       = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/estudiante/include /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/estudiante/src /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/estudiante/doc
+EXTRACT_PRIVATE	       = NO

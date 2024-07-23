@@ -1,0 +1,18 @@
+# ninja log v5
+1	493	1672925177284108725	CMakeFiles/partida_letras.dir/estudiante/src/partida_letras.cpp.o	c3bb74f278a32f53
+3420	4642	1673131828410140499	CMakeFiles/cantidad_letras.dir/estudiante/src/cantidad_letras.cpp.o	89dd70acb6b9c429
+447	837	1671988078779478808	CMakeFiles/diccionario.dir/estudiante/src/dictionary.cpp.o	b31fd61a95a35d7d
+0	379	0	CMakeFiles/doc_doxygen	f3b430af209e9930
+5	3420	1673131827194137576	CMakeFiles/cantidad_letras.dir/estudiante/src/dictionary.cpp.o	afbb4d8475b0b6da
+1	312	1672490172984529449	CMakeFiles/palabras_validas_diccionario.dir/estudiante/src/palabras_validas_diccionario.cpp.o	c7ec4300193372e0
+0	297	1672245663610005851	CMakeFiles/partida_letras.dir/estudiante/src/letters_bag.cpp.o	6fc3db4f2ef6ff0
+2	447	1671988078391477602	CMakeFiles/diccionario.dir/estudiante/src/diccionario.cpp.o	457e810c42abd70f
+687	776	1672490695639956052	palabras_validas_diccionario	d3fffb8a952daf8
+837	929	1671988078871479094	diccionario	dad07ad2e55acee0
+0	548	1672243829567682756	CMakeFiles/partida_letras.dir/estudiante/src/letters_set.cpp.o	9c5606bf22d94dce
+829	1130	1672925177924097009	CMakeFiles/partida_letras.dir/estudiante/src/dictionary.cpp.o	c2cb1022e2fa073f
+4642	5092	1673131828866141593	cantidad_letras	d900cf6abb4d416e
+860	1329	1672161015715083924	CMakeFiles/cantidad_letras.dir/estudiante/src/letters_set.cpp.o	9b06a11a9fb303b0
+1131	1213	1672925178008095456	partida_letras	ad4d38bc342f32e9
+0	687	1672490695547956144	CMakeFiles/palabras_validas_diccionario.dir/estudiante/src/dictionary.cpp.o	2430045e32263e96
+493	829	1672925177620102575	CMakeFiles/partida_letras.dir/estudiante/src/solver.cpp.o	b9ae5ed09602effd

@@ -1,0 +1,11 @@
+==================
+En tu proyecto ruby, crea una nueva clase Examen en un fichero examenP3.rb. Añade un método de instancia a Examen llamado main y haz que ese método se ejecute automáticamente al indicar al interprete ruby que procese examenP3.rb. El resto de tareas indicadas se realizarán en el orden indicado en ese mismo método.
+
+Crea una instancia de Damage que haga perder un láser, 2 armas tipo misil y 3 cañones de plasma. Muestra el estado completo (1) de ese objeto en consola y a continuación muestra un separador visual (puts “--------”).
+
+Crea una estación espacial y haz que reciba un hangar de la misma forma que ocurre en el juego. Asegúrate que solo reciba el hangar y no armas, escudos, etc. Muestra el estado completo de la estación espacial y un separador.
+
+Haz que la estación espacial reciba 3 armas tipo láser, 2 tipo misil y un cañón de plasma y las monte. Debe recibir estas armas pasando por el hangar de la misma forma que ocurre en el juego. Presta atención a que es muy probable que el hangar no sea capaz de albergar todas las armas a la vez. Muestra el estado completo de la estación espacial y un separador.
+
+Haz que la estación espacial reciba como daño el creado anteriormente (de la misma forma que se produce en el juego). Muestra el estado completo de la estación espacial y un separador.
+==================

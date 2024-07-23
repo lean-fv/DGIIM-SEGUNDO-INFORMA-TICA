@@ -1,0 +1,9 @@
+<map id="include/letters_set.h" name="include/letters_set.h">
+<area shape="rect" id="node1" title="Cabecera para la clase LettersSet." alt="" coords="299,5,454,32"/>
+<area shape="rect" id="node2" href="$letters__bag_8h.html" title="Cabecera para la clase LettersBag con definiciones." alt="" coords="56,80,215,107"/>
+<area shape="rect" id="node4" href="$letters__bag_8cpp.html" title="Fichero con definiciones para los métodos primitivos de la clase LettersBag." alt="" coords="180,155,325,181"/>
+<area shape="rect" id="node5" href="$cantidad__letras_8cpp.html" title="Programa de prueba para clase Dictionary." alt="" coords="291,80,463,107"/>
+<area shape="rect" id="node6" href="$conjunto__letras_8cpp.html" title="Programa de prueba para clase LettersSet." alt="" coords="487,80,659,107"/>
+<area shape="rect" id="node7" href="$letters__set_8cpp.html" title="Fichero con definiciones para los métodos primitivos de la clase LettersSet." alt="" coords="683,80,825,107"/>
+<area shape="rect" id="node3" href="$bolsa__letras_8cpp.html" title="Programa de prueba para clase LettersBag." alt="" coords="5,155,156,181"/>
+</map>

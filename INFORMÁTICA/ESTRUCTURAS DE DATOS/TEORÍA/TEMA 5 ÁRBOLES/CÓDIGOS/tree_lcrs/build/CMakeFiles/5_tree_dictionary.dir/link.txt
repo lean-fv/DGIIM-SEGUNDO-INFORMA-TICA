@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0   CMakeFiles/5_tree_dictionary.dir/src/5_tree_dictionary.cpp.o  -o 5_tree_dictionary 

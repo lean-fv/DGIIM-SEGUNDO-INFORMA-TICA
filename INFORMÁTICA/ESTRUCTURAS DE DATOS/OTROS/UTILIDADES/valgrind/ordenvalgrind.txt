@@ -1,0 +1,26 @@
+
+/**Compilar con la opción -g
+
+g++ -g ejval3.cpp -o ejval3
+
+/** Llamar a valgrind con el nombre del ejecutable y las opciones que se quiera activar
+
+valgrind --tool=memcheck -v --leak-check=full ./nombre_ejecutable
+
+/**Para el profiler de valgrind usar
+
+valgrind --tool=callgrind ./nombre_ejecutable [parametros del ejecutable si los hay]
+
+/** Para analizar el fichero que sale (calgrind.out.<NUMERO>) hacer
+
+callgrind_annotate --inclusive=yes --tree=both ./callgrind.out.<NUMERO>
+
+/** Para usar el profiler de la gnu hacer la compilación con la opción -pg
+
+g++ -g -pg ejval3.cpp -o ejval3
+
+/** Para analizar el fichero generado (gmon.out) hacer
+
+./nombre_ejecutable
+gprof ./nombre_ejecutable | c++filt
+

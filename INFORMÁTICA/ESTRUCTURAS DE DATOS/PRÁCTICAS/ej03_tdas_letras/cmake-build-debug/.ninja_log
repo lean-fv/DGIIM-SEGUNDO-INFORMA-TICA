@@ -1,0 +1,21 @@
+# ninja log v5
+0	222	1668859825026303883	CMakeFiles/cantidad_letras.dir/estudiante/src/cantidad_letras.cpp.o	4447411dc6ad5f74
+0	154	1668858215186235406	CMakeFiles/palabras_longitud.dir/estudiante/src/palabras_longitud.cpp.o	19c09a16e56c354e
+2	526	1668858131778010915	CMakeFiles/palabras_longitud.dir/estudiante/src/dictionary.cpp.o	8f379704496c05a7
+0	108	0	CMakeFiles/doc_doxygen	8d79ddc7a823a331
+0	454	1668859749706095299	CMakeFiles/cantidad_letras.dir/estudiante/src/dictionary.cpp.o	221519ee9a32cce6
+174	392	1668860619748952742	CMakeFiles/bolsa_letras.dir/estudiante/src/letters_set.cpp.o	583cb1990d366a4b
+339	696	1668862032861188326	CMakeFiles/bolsa_letras.dir/estudiante/src/letters_bag.cpp.o	203a923e97ae5e67
+0	70	1672491978681626153	build.ninja	2e33f74c54d73c79
+225	371	1668860614792937201	CMakeFiles/conjunto_letras.dir/estudiante/src/conjunto_letras.cpp.o	dd26c838b59faf4b
+371	403	1668860614824937301	conjunto_letras	b07dc560dba590c5
+155	190	1668858215222235503	palabras_longitud	168baadf68a97bd4
+696	767	1668862032929188523	bolsa_letras	d015a58d345ddd93
+0	225	1668860614648936748	CMakeFiles/conjunto_letras.dir/estudiante/src/letters_set.cpp.o	d9bcf5a463d80221
+222	268	1668859825074304056	cantidad_letras	d900cf6abb4d416e
+0	190	1668858209734220804	CMakeFiles/bolsa.dir/estudiante/src/bolsa.cpp.o	f43fe7454b09cf50
+550	749	1668859545361599906	CMakeFiles/cantidad_letras.dir/estudiante/src/letters_set.cpp.o	b142554e58e3584c
+190	232	1668858209778220922	bolsa	dbbc39af2bf35802
+1	339	1668862032505187298	CMakeFiles/bolsa_letras.dir/estudiante/src/bolsa_letras.cpp.o	eb379d804d8f79fb
+0	232	0	CMakeFiles/doc_doxygen	feaf25ff51423dd5
+0	232	0	/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej03_tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen	feaf25ff51423dd5

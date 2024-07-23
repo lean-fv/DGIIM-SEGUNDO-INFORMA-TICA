@@ -1,0 +1,90 @@
+
+
+*******************************************************************************
+Sun Mar 19 21:40:13 2023
+
+
+FIT:    data read from 'mergesort_me_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033979518e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 1.7824108344e-03  -1.22e-11  1.02e+04    1.432127e-08
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00178241
+rel. change during last iteration : -1.21656e-16
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00861784
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.42671e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 1.43213e-08      +/- 1.689e-10    (1.179%)
+
+
+*******************************************************************************
+Tue Mar 21 01:16:50 2023
+
+
+FIT:    data read from 'mergesort_m_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033980013e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 4.4583283479e-05  -1.06e-10  1.02e+02    4.802851e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.45833e-05
+rel. change during last iteration : -1.06394e-15
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00136295
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.85764e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 4.80285e-09      +/- 2.671e-11    (0.5562%)
+
+
+*******************************************************************************
+Tue Mar 21 15:19:44 2023
+
+
+FIT:    data read from 'mergesort_p_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033979545e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 5.4661895554e-03  -3.17e-11  1.02e+04    1.379565e-08
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00546619
+rel. change during last iteration : -3.17355e-16
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0150916
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000227758
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 1.37957e-08      +/- 2.958e-10    (2.144%)

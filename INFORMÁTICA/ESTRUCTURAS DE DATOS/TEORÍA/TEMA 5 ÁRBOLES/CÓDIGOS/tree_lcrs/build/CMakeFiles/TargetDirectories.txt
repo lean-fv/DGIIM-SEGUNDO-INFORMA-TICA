@@ -1,0 +1,7 @@
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/rebuild_cache.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/edit_cache.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/5_tree_dictionary.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/4_tree_ordered_insertion.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/3_tree_iteration.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/2_tree_recursion.dir
+/home/fluque/dev/teaching/2022-2023/ED/sessions/tree/build/CMakeFiles/1_tree_manipulation.dir

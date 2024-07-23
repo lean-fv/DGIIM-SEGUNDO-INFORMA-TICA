@@ -1,0 +1,67 @@
+/*! \mainpage Main Page
+
+# Introducción
+
+@image html letras.png
+
+El objetivo de este proyecto es el manejo de contenedores de datos no lineales que almacenan letras y palabras, con el objetivo de obtener un diccionario y poder calcular puntuaciones de una palabra para la futura implementación de un juego parecido al Scrabble.
+
+Para ello, se implementarán clases como Bag, LettersBag, LettersSet, Dictionary.
+
+# Ejecutables
+
+Los ejecutables son conjunto_letras.cpp, bolsa.cpp, bolsa_letras.cpp, palabras_longitud.cpp y cantidad_letras.cpp. Las explicaciones se encuentran en sus respectivas páginas de información.
+
+@authors Antonio Cantillo Molina & Leandro Jorge Fernández Vega.
+
+@page CONJUNTO_LETRAS
+
+## ALMACENAMIENTO DE LETRAS, PUNTUACIONES Y REPETICIONES
+
+Programa que obtiene la puntuación de una palabra según la puntuación asignada a cada letra.
+
+> conjunto_letras \<Fichero_Info_Conjunto_Letras\> \<Palabra\>
+@param <Fichero_Info_Conjunto_Letras> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+@param <Palabra> Palabra a la que calcular la puntuación.
+
+@page BOLSA
+
+## ALMACENAMIENTO DE ELEMENTOS DE CUALQUIER TIPO
+
+Programa que se encarga de crear una bolsa a partir de una lista de carcateres o enteros según corresponda, y mostrarlos sacándolos de manera aleatoria.
+
+> bolsa \<Tipo_Bolsa\> \<Lista\>
+@param <Tipo_Bolsa> Indica si la bolsa será de caracteres ('C') o enteros ('I').
+@param <Lista> Secuencia de caracteres o enteros, según corresponda, con la que rellenar la bolsa.
+
+@page BOLSA_LETRAS
+
+## ALMACENAMIENTO DE LETRAS EN UNA BOLSA
+
+Programa que crea una bolsa de letras rellenándola a partir de un conjunto de letras (LettersSet) que rellenamos de un fichero que pasamos como parámetro, y posteriormente extrae sus elementos de manera aleatoria.
+
+> bolsa_letras \<Fichero_Info_Conjunto_Letras\>
+@param <Fichero_Info_Conjunto_Letras> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+
+@page PALABRAS_LONGITUD
+
+## ALMACENAMIENTO DE PALABRAS EN UN DICCIONARIO Y MUESTRA DE AQUELLAS CON UNA LONGITUD DADA
+
+Programa que crea un diccionario, lo rellena a partir de un fichero de entrada, y dada un longitud de palabra, mostrará todas las palabras del diccionario que la tengan.
+
+> palabras_longitud \<Fichero_Info_Diccionario\> \<longitud\>
+@param <Fichero_Info_Diccionario> Fichero con las palabras de un diccionario ordenadas alfabéticamente.
+@param <longitud> Longitud que deberá tener la palabra para ser mostrada.
+
+@page CANTIDAD_LETRAS
+
+## ALMACENAMIENTO DE PALABRAS EN UN DICCIONARIO Y CÁCULO DE FRECUENCIAS ABSOLUTAS Y RELATIVAS DE LETRAS
+
+Programa que crea un diccionario y conjunto de letras, los rellena a partir de los ficheros de entrada que pasamos como parámetros y calcula para cada letra del conjunto su número total de apariciones en todas las palabras del
+diccionario (su frecuencia absoluta) y la frecuencia relativa del misma. La frecuencia relativa se calculará como el cociente de la frecuencia absoluta de la letra y el número total de letras de todas las palabras del diccionario.
+
+> cantidad_letras \<Fichero_Info_Diccionario\> \<Fichero_Info_Conjunto_Letras\>
+@param <Fichero_Info_Diccionario> Fichero con las palabras de un diccionario ordenadas alfabéticamente.
+@param <Fichero_Info_Conjunto_Letras> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+
+*/

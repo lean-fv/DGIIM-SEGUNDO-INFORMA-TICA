@@ -1,0 +1,30 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivos}{3}{section.1}%
+\contentsline {section}{\numberline {2}Introducción}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Características}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Elementos}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Datos Técnicos del Computador Utilizado}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Tipos de Análisis a Realizar}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Análisis Teórico}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Análisis Empírico}{7}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Análisis Híbrido}{8}{subsubsection.2.4.3}%
+\contentsline {section}{\numberline {3}Problema: El viajante de comercio (PVC)}{9}{section.3}%
+\contentsline {paragraph}{Aclaración}{9}{section*.2}%
+\contentsline {subsection}{\numberline {3.1}Generador}{10}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Implementación}{10}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}BackTracking}{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Implementación}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Funciones de Cota}{16}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Análisis Teórico}{20}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Análisis Empiríco}{21}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}Análisis Híbrido}{26}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}Análisis Comparativo de Cotas}{27}{subsubsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}Branch and Bound}{28}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Implementación}{28}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Funciones de cota}{37}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Análisis Teórico}{41}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Análisis Empiríco}{42}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Análisis Híbrido}{48}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Análisis Comparativo de Cotas}{48}{subsubsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}Análisis Comparativo entre BB y BT}{49}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusiones}{52}{section.4}%

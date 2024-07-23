@@ -1,0 +1,3 @@
+SHELL=/bin/sh
+PATH=/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/SO/ACTIVIDADES/:/home/leandrofdez/SO:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+* * * * * /home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/SO/ACTIVIDADES/4_11.sh

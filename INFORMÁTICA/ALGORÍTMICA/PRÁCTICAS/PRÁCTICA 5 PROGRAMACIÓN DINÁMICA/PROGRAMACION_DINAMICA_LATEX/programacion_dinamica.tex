@@ -1,0 +1,189 @@
+%Tipo de documento
+\documentclass[a4paper,12pt,twoside]{article} %book, report, letter, beamer
+
+%Paquetes
+
+%Configuracion inicial
+\usepackage[utf8]{inputenc}
+%\UseRawInputEncoding
+\usepackage[spanish]{babel}
+%Hipervinculos dinamicos
+\usepackage[backref]{hyperref}
+%Matematicas
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsbsy}
+%Comentarios de varias lineas
+\usepackage{comment}
+%Insertar imagenes
+\usepackage{graphicx}
+\graphicspath{ {IMAGENES/} }
+%Cuadros de codigo
+\usepackage{listings}
+
+
+
+% Cuerpo del documento -------------------------------------------------
+%Entorno: comando especial que cuenta con parte de incio y de fin.
+
+\begin{document}
+
+%Portada
+\begin{titlepage}
+\centering
+
+{\includegraphics[width=0.6\textwidth]{foto_portada.png}\par}
+\vspace{1cm}
+
+{\bfseries\LARGE Escuela Técnica Superior de Ingeniería Informática y Telecomunicaciones \par}
+\vspace{0.4cm}
+
+{\scshape\Huge Programación Dinámica \par}
+\vspace{0.4cm}
+
+{\itshape\Large Quinta Práctica de Algorítmica \par}
+\vspace{0.5cm}
+
+{\itshape\Large Doble Grado en Ingeniería Informática y Matemáticas \par}
+\vspace{0.4cm}
+
+{\Large Autores: \par}
+{\Large Elena Abreu Fernández \par}
+{\Large Antonio Cantillo Molina \par}
+{\Large Leandro Jorge Fernández Vega \par}
+\vfill
+
+{\Large Junio 2023 \par}
+
+\end{titlepage}
+
+% Crea indice
+\tableofcontents
+\newpage
+
+
+\section{Objetivos}
+	\begin{itemize}
+		\item Conocer en profundidad la implementación de un algoritmo de \textit{Programación Dinámica}.
+		\item Saber demostrar la optimalidad de una solución de \textit{Programación Dinámica}, viendo que ésta cumple el Principio de Optimalidad de Bellman.
+            \item Entender y asimilar distintas técnicas de \textit{Programación Dinámica}.
+	\end{itemize}
+\newpage
+
+
+\section{Introducción}
+
+Se plantea la elaboración de un algoritmo basado en \textit{Programación Dinámica}. Estos algoritmos pretenden encontrar una solución óptima a un problema empleando una cantidad relativamente alta de memoria. Esto es debido a que se pretende reducir el tiempo de ejecución realizando cálculos comunes a diversos subproblemas, una sola vez, y guardándolos en memoria.
+
+Usan una formulación recursiva o iterativa de la solución de un problema mayor en función de soluciones a problemas menores. Se resuelve cada instancia de tamaño menor una única vez y se guarda en una tabla. Finalmente, se obtiene la solución de la instancia inicial utilizando las soluciones almacenadas.
+
+\section{Características}
+
+\begin{itemize}
+
+    \item Resuelve un problema por etapas.
+    \item Divide el problema en subproblemas.
+    \item Suele ser una técnica ascendente (bottom-up) para obtener la solución, primero calcula las soluciones óptimas a problemas de tamaño pequeño. Utilizando dichas soluciones encuentra soluciones a problemas de mayor tamaño.
+    \item Retiene en memoria las soluciones de los subproblemas, para evitar cálculos repetidos (memoizing).
+    \item Devuelve la solución óptima a partir Principio de Optimalidad de Bellman: una secuencia óptima de decisiones que resuelve un problema debe cumplir la propiedad de que cualquier subsecuencia de decisiones debe ser también óptima respecto al subproblema que resuelve.
+
+\end{itemize}
+\newpage
+
+\subsection{Características de los Problemas}
+
+\begin{itemize}
+    \item Suelen ser problemas de optimización.
+    \item El problema debe poder resolverse por etapas, Sol=d1,d2,d3,...,dn, se toma una decisión en cada paso, pero esta depende de las soluciones a los subproblemas que lo componen.
+    \item Deben poder modelizarse con una función recurrente.
+    \item Deben cumplir el Principio de Optimalidad de Bellman.
+    \item Esta técnica se aplica sobre problemas que a simple vista necesitan un alto coste computacional (posiblemente exponencial) donde:
+
+    \begin{enumerate}
+        \item Subproblemas optimales: La solución óptima a un problema puede ser definida en función de soluciones óptimas a subproblemas de tamaño menor, generalmente de forma recursiva.
+        \item Solapamiento entre subproblemas: Al plantear la solución recursiva, un mismo problema se resuelve más de una vez.
+    \end{enumerate}
+    
+\end{itemize} 
+
+\newpage
+
+
+
+\subsection{Problema: Descomposición en cuadrados}
+Todo número natural puede expresarse siempre como la suma de los cuadrados de otros números naturales. Para comprobarlo basta considerar que 
+1 = $1^2$ . Un ejemplo del enunciado sería la descomposición de 100:
+$100 = 10^2 = 5^2 + 5^2 + 5^2 + 5^2 = 8^2 + 5^2 + 2^2 + 2^2 + 1^2 + 1^2 + 1^2$
+Dado un número natural $n, n \in \mathbb{N}$ se quiere encontrar una descomposición
+de n como suma de cuadrados de modo que el número de sumandos de esa descomposición sea lo más pequeña posible. Por ejemplo, en el caso de 100, ese número mínimo es 1.
+
+
+
+\subsection{Algoritmo}
+Para resolver este problema hemos decidido usar un algoritmo iterativo de la siguiente manera:\\
+
+\lstset{language=C++}
+\begin{lstlisting}
+
+//Vector de soluciones
+v[N]
+
+//El 0 no se obtiene mediante ningun sumando.
+v[0]=0
+
+for i=1 to N
+    v[i]=infinity
+
+for i=1 to N
+    for j=1 to sqrt(i)
+        v[i]=minimo(v[i], v[i-j*j] +1)
+
+    
+return v[n]
+
+\end{lstlisting}
+\newpage
+
+\subsection{Explicación}
+Siendo n el número natural que queremos descomponer como suma de cuadrados, creamos un vector de enteros de tamaño n que iniciamos con v[0]=0 (el 0 no se descompone en ningun sumando de cuadrados mayores o iguales que 1) y el resto de elementos a un valor máximo.\\
+
+A continuación, creamos un bucle for con una variable i que vaya desde 1 hasta n, y lo anidamos con otro bucle for que recorre una variable j desde 1 hasta $\sqrt{i}$, pues ese es el máximo valor que tendrán los cuadrados.\\
+
+Finalmente, vamos rellenando el vector utilizando la optimalidad de la programación dinámica, calculando y almacenando las soluciones de los subproblemas en el vector. Al iterar desde 1 hasta n y calcular el mínimo entre v[i] y v[i - j*j] + 1 para cada j, se está garantizando que se estén considerando todas las posibles descomposiciones y seleccionando la descomposición mínima para cada número.\\
+
+Por último, se devolvería v[n], que almacenaría el mínimo número de sumandos en los que se descompone n.
+
+\subsubsection{Comprobación del Principio de Optimalidad de Bellman}
+Sea N el número entero a decomponer, y sea $n \in [1,\sqrt{N}]$ cada uno de los números en los que puede descomponerse N.
+
+Sea $S(n,N)$ el número de sumandos mínimo para obtener N a partir de números comprendidos entre $1$ y $n$.
+
+Sea la secuencia de decisiones para resolver el problema $x_1,...,x_n$, donde $x_i$ se corresponde con el número de sumandos del número  $i^2$.\\
+
+Si $x_i ... x_n$ es óptima para $S(n,N)$, probemos $x_1 ... x_{n-1}$ es una solución óptima para $S(n-1,N-x_n \cdot n^2)$.\\
+
+Supongamos que $x_1 ... x_{n-1}$ no es óptima:\\
+
+Si $x_1,...,x_{n-1}$ no es óptima $\Longrightarrow \exists y_1,...,y_{n-1} $ tal que:\\
+
+$\sum_{i=1}^{n-1} y_i < \sum_{i=1}^{n-1} x_i$ y 
+$\sum_{i=1}^{n-1} y_i \cdot i^2$ = $N - y_n \cdot n^2 \Longrightarrow$ Si $x_n=y_n$,
+
+$\sum_{i=1}^{n} y_i \cdot i^2 = N$ y $y_1,...,y_n$ es solución óptima, con:\\
+
+$\sum_{i=1}^{n} y_i \cdot i^2 < \sum_{i=1}^{n} x_i \cdot i^2 \Longrightarrow x_1,...,x_n$ no óptima: \textbf{CONTRADICCIÓN}
+
+\vspace{1cm}
+
+\newpage
+
+\section{Conclusiones} 
+
+\begin{itemize}
+	\item La comprensión y utilización del Principio de Optimalidad de Bellman como base de la programación dinámica.
+	\item La versatilidad que ofrece la programación dinámica ante algoritmos iterativos o recursivos que no son del todo óptimos.
+	\item El aumento de la eficiencia a la hora de encontrar una solución óptima.
+
+\end{itemize}
+
+\end{document}

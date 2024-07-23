@@ -1,0 +1,153 @@
+/*! \mainpage Main Page
+
+@image html foto_portada.png
+
+
+
+El objetivo de esta práctica es la manipulación de imágenes.
+
+Contaremos con varios métodos con los que obtener los siguientes resultados: obtener el negativo de una imagen, una subimagen suya, hacer un zoom sobre ella, o generar un icono, entre otros.
+
+Para ello, manejamos una imagen con una reprensentación en memoria dinámica como vector de vectores, lo que nos permite trabajar con imágenes de cualquier tamaño, aunque no centraremos en imágenes cuadradas mayoritariamente.
+
+TRABAJO REALIZADO POR ANTONIO CANTILLO MOLINA Y LEANDRO JORGE FERNÁNDEZ VEGA.
+
+@page NEGATIVO
+
+
+## CREACIÓN DE UNA IMAGEN EN NEGATIVO
+
+Método que calcula el negativo de una imagen invirtiendo sus valores.
+Es decir, cada valor de cada píxel ([0-255]), verá su valor modificado al resultante de hacer 255 menos su valor (255-valor).
+
+> negativo \<FichImagenOriginal\> \<FichImagenDestino\>
+@param <FichImagenOriginal> Imagen PGM a la que se va a calcular el negativo..
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+
+De esta manera, la imagen original pasa a ser así una vez calculado su negativo:
+
+@image html invert.png
+
+@page SUBIMAGEN
+
+## CREACIÓN DE SUBIMAGEN:
+
+Método que dados ciertos parámetros toma de una imagen original, una subimagen o recorte de dimensiones a especificar.
+
+> subimagen \<FichImagenOriginal\> \<FichImagenDestino\> \<fila\> \<columna\> \<fils_sub\> \<cols_sub\>
+@param <FichImagenOriginal> Fichero donde se almacena la imagen original.
+@param <FichImagenDestino> Fichero donde se almacena la subimagen resultado.
+@param <fila> Posición fila desde donde empezar a extraer.
+@param <columna> Posición columna desde donde empezar a extraer.
+@param <fils_sub> Alto de la submatriz.
+@param <cols_sub> Ancho de la submatriz.
+
+Utilizando este método, a partir de la imagen original:
+
+@image html vacas.png
+
+Obtenemos una subimagen de tamaño (60x80):
+
+@image html subimagen_pub.png
+
+@page ZOOM
+
+## ZOOM DE IMAGEN:
+
+Método que sobre una imagen dada realiza un zoom (x2) mediante una interpolación.
+
+> zoom \<FichImagenOriginal\> \<FichImagenDestino\> \<fila\> \<columna\> \<lado\>
+@param <FichImagenOriginal> Fichero donde se almacena la imagen original.
+@param <FichImagenDestino> Fichero donde se almacena la imagen resultado del Zoom2X.
+
+La interpolación se realiza de la siguiente manera:
+
+- En primer lugar, partimos de utilizar la imagen con las nuevas dimensiones con los píxeles de las filas y las columnas
+posicionados de manera que dejan las filas y las columnas impares vacías. Es decir, de la siguiente manera:
+
+@image html zoom_fils_cols.png
+
+- A partir de aquí, la interpolación consistirá en:
+    - Aquellos píxeles que tengan píxeles de la imagen original arriba y abajo, tomarán el valor de la media entre ambos.
+    - De la misma manera, pero con aquellos que tengan a la izquierda y a la derecha.
+    - Aquellos que no tengan píxeles de la imagen original ni arriba ni abajo ni a la izquierda ni a la derecha, tomarán
+      el valor de la media entre los cuatros más cercanos de sus diagonales.
+
+
+De esta manera, la imagen original aplicando un zoom (x2) quedará:
+
+@image html zoom_pub.png
+
+@page ICONO
+
+## CREACIÓN DE UN ICONO:
+
+Método que dada una imagen y un factor, devuelve una subimagen aplicando una reducción del orden del factor mediante interpolación.
+
+> icono \<FichImagenOriginal\> \<FichImagenDestino\> \<factor\>
+@param <FichImagenOriginal> Fichero donde se almacena la imagen original.
+@param <FichImagenDestino> Fichero donde se almacena la imagen resultado de la reducción.
+@param <factor>" Factor de reducción.
+
+La interpolación se realiza de la siguiente manera:
+
+- En primer lugar, partimos de utilizar la imagen con las nuevas dimensiones (más pequeña).
+
+- A partir de aquí, la interpolación consistirá en:
+    - En cada píxel de la imagen pequeña guardaremos la media de los píxeles de la imagen original que se hallen en el
+      cuadrado de tamaño (factorxfactor). Es decir, dividimos la imagen original en cuadrados de tamaño (factorxfactor)
+      y la media de todos ellos la almacenamos en el pixel correspondiente de la imagen con las dimensiones reducidas.
+
+Así pues, la imagen aplicando un factor de reducción de 2 (x2) queda así:
+
+@image html icono_pub.png
+
+@page CONTRASTE
+
+## AJUSTE DE CONTRASTE:
+
+Ajusta el contraste de la imagen original dados parámetros para establecer intervalos y realizar cambios sobre el valor de los píxeles según en qué intervalos se encuentren, según la siguiente fórmula:
+T(z) = z' = s1 + [((s2 – s1) / (e2 – e1)) * (z – e1)]
+
+> contraste \<FichImagenOriginal\> \<FichImagenDestino\> \<e1\> \<e2\> \<s1\> \<s2\>
+@param <FichImagenOriginal> Fichero donde se almacena la imagen original.
+@param <FichImagenDestino> Fichero donde se almacena la imagen resultado.
+@param <e1> Umbral inferior de la imagen de entrada.
+@param <e2> Umbral superior de la imagen de entrada.
+@param <s1> Umbral inferior de la imagen de salida.
+@param <s2> Umbral superior de la imagen de salida.
+
+Por tanto, la imagen original tras aplicar un contraste poniendo como intervalo antiguo ([64-192]) e intervalo nuevo ([32-224]):
+
+@image html contraste_pub.png
+
+
+@page BARAJAR
+## BARAJADO DE FILAS Y ANÁLISIS DE EFICIENCIA
+
+Altera el orden original de filas mediante un algoritmo basado en números coprimos, de forma que la nueva fila _r_n = (r*p) mod rows_, donde r es el número de fila, p es un número coprimo de r, y rows es el total de filas.
+
+> barajar \<FichImagenOriginal\> \<FichImagenDestino\>
+
+@param <FichImagenOriginal> Fichero donde se almacena la imagen original.
+@param <FichImagenDestino> Fichero donde se almacena la imagen resultado.
+
+### Atendiendo a la eficiencia teórica:
+- Para una implementación de bloques contiguos en memoria:
+    - Si las filas y columnas varían, claramente obtenemos una eficiencia de _O(rows*cols)_ al recorrer la matriz entera.
+    - Si las filas o columnas están fijas, en ambos casos obtendremos una efciencia de _0(rows)_ y _O(cols)_, respectivamente.
+
+- Para una implementación de bloques no contiguos en memoria:
+    - Tanto si las filas y columnas varían, como si las columnas permanecen fijas obtenemos una eficiencia de _O(rows)_ al tener que intercambiar solo filas.
+    - Si las filas permanecen fijas tendremos una eficiencia de _O(1)_.
+
+
+### Atendiendo a la eficiencia empírica:
+En el siguiente enlace se puede visualizar la eficiencia empírica del programa según la implementación proporcionada (bloques contiguos o no en memoria), y según varíen filas y columnas, las filas sean constantes, o lo sean las columnas.
+> @link https://docs.google.com/spreadsheets/d/1M5let6QzB27IW1181F34kpI1gubwtksFyPsj1I5Mjoo/edit#gid=0
+
+La imagen con el barajado de filas será:
+
+@image html shuffle_9973.png
+
+*/

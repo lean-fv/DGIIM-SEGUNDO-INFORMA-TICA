@@ -1,0 +1,90 @@
+
+
+*******************************************************************************
+Sun Mar 19 21:34:58 2023
+
+
+FIT:    data read from 'heapsort_me_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033979578e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 1.1370103785e-04  -5.48e-10  1.02e+04    1.317186e-08
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000113701
+rel. change during last iteration : -5.48294e-15
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217659
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.73754e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 1.31719e-08      +/- 4.266e-11    (0.3239%)
+
+
+*******************************************************************************
+Tue Mar 21 01:14:35 2023
+
+
+FIT:    data read from 'heapsort_m_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033979847e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 3.8325385406e-04   0.00e+00  1.02e+02    7.990174e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000383254
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00399611
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.59689e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 7.99017e-09      +/- 7.832e-11    (0.9802%)
+
+
+*******************************************************************************
+Tue Mar 21 15:14:45 2023
+
+
+FIT:    data read from 'heapsort_p_so.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 2.6033979846e+15   0.00e+00  1.02e+07    1.000000e+00
+   5 3.4523456544e-05  -4.12e-10  1.02e+04    8.024250e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.45235e-05
+rel. change during last iteration : -4.12188e-15
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00119937
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.43848e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 8.02425e-09      +/- 2.351e-11    (0.2929%)

@@ -1,0 +1,4 @@
+/home/mp/CLionProjects/reto3/cmake-build-debug/CMakeFiles/ejercicio1.dir
+/home/mp/CLionProjects/reto3/cmake-build-debug/CMakeFiles/ejercicio2.dir
+/home/mp/CLionProjects/reto3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mp/CLionProjects/reto3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

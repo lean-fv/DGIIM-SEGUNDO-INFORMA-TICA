@@ -1,0 +1,13 @@
+
+
+1.- En Ruby, eliminar la asociacion "base" en SpaceCity. Elaborar un contructor de copia en SpaceCity. Crear un objeto SpaceCity, una copia a partir de este y hacer que la copia dispare.
+
+2.- En Java, Crear un vector que almacene estaciones y enemigos indistintamente. Recorrer el vector y hacer que cada elemento dispare.
+
+3.- En Java, Siguiendo el procedimiento modelo-vista-controlador, crear un botón en la vista de las estaciones espaciales de etiqueta "cataclismo", con el siguiente efecto:
+
+	- Para estaciones espaciales descarta la primera y última arma montadas.
+	- Para ciudades espaciales descarta la segunda arma montada.
+	- Para estaciones eficientes descarta la penúltima arma montada.
+	
+

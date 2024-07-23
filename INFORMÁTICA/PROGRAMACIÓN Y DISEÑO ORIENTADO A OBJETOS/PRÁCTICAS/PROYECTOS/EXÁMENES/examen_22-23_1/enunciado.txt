@@ -1,0 +1,21 @@
+===========================
+
+1.- En tu proyecto Java, crea una nueva clase ExamenP4 con un programa principal (main) de
+forma que sea posible ejecutarlo. Dentro del método main realiza las siguientes tareas:
+- Crea 5 estaciones espaciales e introdúcelas en un ArrayList.
+- Transforma la segunda estación espacial en una ciudad espacial que sustituya a esa estación
+en el contenedor.
+- Recorre el ArrayList y haz que todos los objetos contenidos disparen. Cada uno deberá
+disparar de la forma asociada a la clase a la que pertenece. Se debe escribir el resultado de
+cada disparo en la consola.
+
+2.- Este ejercicio se debe realizar sobre la versión de la práctica con interfaz gráfica de usuario de
+forma que encaje en el diseño existente y siguiendo el patrón de diseño MVC.
+Se añade una nueva regla al juego. Cada jugador podrá, solo una vez en la partida, pulsar un nuevo
+botón que hará que, con un 50% de probabilidades, el jugador con el turno reciba en el hangar el
+primer arma del hangar de otro jugador escogido al azar o que sea él el que entregue su primer arma
+del hangar a otro jugador escogido al azar.
+Una vez utilizada esta opción por parte de un jugador, el botón debe aparecerle deshabilitado
+(setEnabled(false)) y tendrá como etiqueta “Roulette”.
+
+===========================

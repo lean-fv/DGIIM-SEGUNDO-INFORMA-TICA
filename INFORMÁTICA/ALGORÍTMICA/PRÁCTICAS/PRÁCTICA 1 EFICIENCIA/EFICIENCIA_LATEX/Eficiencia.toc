@@ -1,0 +1,52 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Objetivos}{4}{section.1}%
+\contentsline {section}{\numberline {2}Introducción}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Datos técnicos del computador utilizado}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Tipos de análisis a realizar}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Análisis teórico}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Análisis empírico}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Análisis híbrido}{7}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Algoritmos $\textit {O(n²)}$}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Burbuja}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Peor Caso}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Caso Promedio}{11}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Caso Mejor}{13}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Inserción}{15}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Peor Caso}{15}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Caso Promedio}{18}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Caso Mejor}{20}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Selección}{22}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Peor Caso}{22}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Caso Promedio}{25}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Caso Mejor}{27}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Algoritmos $\textit {O(nlog(n))}$}{29}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Heapsort}{30}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Peor Caso}{30}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Caso Promedio}{33}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Caso Mejor}{35}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Mergesort}{37}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Peor Caso}{37}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Caso Promedio}{41}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Caso Mejor}{43}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Quicksort}{45}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Peor Caso}{45}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Caso Promedio}{49}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Caso Mejor}{51}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Eficiencia Empírica con variación de parámetros externos}{53}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Burbuja}{54}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Inserción}{56}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Selección}{58}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Heapsort}{60}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Mergesort}{62}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Quicksort}{64}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Comparaciones}{66}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Algoritmos $\textit {O(n²)}$}{66}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Algoritmos $\textit {O(nlog(n))}$}{67}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Sin optimización VS Con optimización}{68}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Burbuja}{68}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Inserción}{69}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Selección}{70}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}Heapsort}{71}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}Mergesort}{72}{subsubsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.6}Quicksort}{73}{subsubsection.6.3.6}%
+\contentsline {section}{\numberline {7}Conclusiones}{74}{section.7}%

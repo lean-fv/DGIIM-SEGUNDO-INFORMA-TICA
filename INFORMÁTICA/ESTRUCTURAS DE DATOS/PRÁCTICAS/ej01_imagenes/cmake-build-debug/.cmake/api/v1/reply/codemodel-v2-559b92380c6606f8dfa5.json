@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "practica2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "analisis_eficiencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-analisis_eficiencia-Debug-fabe99d665c60041333f.json",
+					"name" : "analisis_eficiencia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "barajar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-barajar-Debug-134a3e3299f3157a19fa.json",
+					"name" : "barajar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "contraste::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-contraste-Debug-1c4c39b702bd52fe9dd8.json",
+					"name" : "contraste",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc_doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc_doxygen-Debug-f15a344b9674d8f7dbf1.json",
+					"name" : "doc_doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icono::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icono-Debug-b09c53934321788bad7e.json",
+					"name" : "icono",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image-Debug-769c53bf402f57611b90.json",
+					"name" : "image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "negativo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-negativo-Debug-4aee99ca9da443ead9f7.json",
+					"name" : "negativo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subimagen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subimagen-Debug-9c8100e04c17aff585e5.json",
+					"name" : "subimagen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zoom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zoom-Debug-85318502bad6790995b4.json",
+					"name" : "zoom",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes/cmake-build-debug",
+		"source" : "/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ED/ej01_imagenes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

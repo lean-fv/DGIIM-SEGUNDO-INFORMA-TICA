@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Practica1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "burbuja::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-burbuja-Debug-12d13ff1dd0e8e96dc00.json",
+					"name" : "burbuja",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "heapsort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-heapsort-Debug-a4ab148eca8a74486581.json",
+					"name" : "heapsort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "insercion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-insercion-Debug-5a49756ea40353fc3d9d.json",
+					"name" : "insercion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mergesort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mergesort-Debug-7e5dfb323c90b96f2c21.json",
+					"name" : "mergesort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quicksort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quicksort-Debug-4da5102a12475339ae96.json",
+					"name" : "quicksort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seleccion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seleccion-Debug-4b7cfde18c97e4446332.json",
+					"name" : "seleccion",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1/cmake-build-debug",
+		"source" : "/home/leandrofdez/Escritorio/LEANDRO/INFORMATICA/2/ALGORITMICA/PRACTICA1/Practica1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

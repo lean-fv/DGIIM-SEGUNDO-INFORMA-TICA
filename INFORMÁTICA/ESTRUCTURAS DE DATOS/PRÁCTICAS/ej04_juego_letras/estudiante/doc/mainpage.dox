@@ -1,0 +1,94 @@
+/*! \mainpage Main Page
+
+# Introducción
+
+@image html letras.png
+
+El objetivo de este proyecto es el manejo de un diccionario para implementación de un juego parecido al Scrabble, ya sea por puntuación o longitud de palabra.
+
+Para ello, se implementarán clases como Bag, LettersBag, LettersSet, Dictionary, Solver (para resolver la partida parecida al Scrabble con distintos modos de juego).
+
+# Ejecutables
+
+Los ejecutables son diccionario.cpp, cantidad_letras.cpp, partida_letras.cpp, palabras_validas_diccionario.cpp, partida_letras_eficiente.cpp. Las explicaciones se encuentran en sus respectivas páginas de información.
+
+@authors Antonio Cantillo Molina & Leandro Jorge Fernández Vega.
+
+@page DICCIONARIO
+
+## ALMACENAMIENTO DE PALABRAS EN DICCIONARIO Y SU OBTENCIÓN.
+
+Programa que rellena un diccionario y utiliza un iterador "iterator" para recorrer y mostrar las palabras que se almacenan en él (no eficiente.
+
+> diccionario \<Fichero_Diccionario\>
+@param <Fichero_Diccionario> Fichero con las palabras del diccionario que manejaremos.
+
+@page CANTIDAD_LETRAS
+
+## CÁLCULO DE USOS Y OCURRENCIAS.
+
+Programa que se encarga de calcular el número de usos y ocurrencias de las letras que forman las palabras del diccionario.
+
+Almacenamos las letras en una estructura de árbol, por tanto distinguimos ocurrencias y usos:
+
+-Usos: Número de veces que aparece una letra en todas las palabras. Ejemplo: "ama, amor, amar" La letra "a" aparece 5 veces.
+
+-Ocurrencias: Número de nodos del árbol con ese carácter.
+
+> cantidad_letras \<Fichero_Diccionario\> \<Fichero_Info_Letras_Cantidad_Y_Puntuaciones\>
+@param <Fichero_Diccionario> Fichero con las palabras del diccionario que manejaremos.
+@param <Fichero_Info_Letras_Cantidad_Y_Puntuaciones> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+
+@page PARTIDA_LETRAS
+
+## OBTENCIÓN DE MEJORES SOLUCIONES
+
+Programa que obtiene las mejores soluciones de entre todas las palabras del diccionario que rellenamos dependiendo del modo de juego que se siga. Se establecerá un número máximo de letras con el que jugar, que se escogerán al azar.
+
+Trataremos dos modos de juego: a longitud o a puntuación. Las mejores soluciones serán las palabras de mayor longitud o aquellas cuya suma total de puntuaciones por letra sea mayor, respectivamente.
+
+> partida_letras \<Fichero_Diccionario\> \<Fichero_Info_Letras_Cantidad_Y_Puntuaciones\> \<Modo_de_Juego\> \<Cantidad_Letras\>
+
+@param <Fichero_Diccionario> Fichero con las palabras del diccionario que manejaremos.
+@param <Fichero_Info_Letras_Cantidad_Y_Puntuaciones> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+@param <Modo_de_Juego> Si es "L", se proporcionan las palabras de mayor longitud. Si es "P", las de mayor puntuación según _Fichero_Info_Letras_Cantidad_Y_Puntuaciones._
+@param <Cantidad_Letras> Número máximo de letras con el que se jugará.
+
+
+@page PALABRAS_VALIDAS_DICCIONARIO
+
+## PALABRAS VALIDAS DE UN DICCIONARIO DADO UN CONJUNTO DE LETRAS
+
+Programa que crea un diccionario, lo rellena a partir de un fichero de entrada, y dado un conjunto de letras, muestra aquellas palabras que se pueden formar con dicho conjunto.
+
+> palabras_validas_diccionario \<Fichero_Diccionario\> \<Lista_Letras\>
+@param <Fichero_Diccionario> Fichero con las palabras del diccionario que manejaremos.
+@param <Lista_Letras> Lista de letras válidas con las que buscar palabras.
+
+@page PARTIDA_LETRAS_EFICIENTE
+
+## OBTENCIÓN DE MEJORES SOLUCIONES
+
+Programa que obtiene las mejores soluciones de entre todas las palabras del diccionario que rellenamos dependiendo del modo de juego que se siga. Se establecerá un número máximo de letras con el que jugar, que se escogerán al azar.
+
+Trataremos dos modos de juego: a longitud o a puntuación. Las mejores soluciones serán las palabras de mayor longitud o aquellas cuya suma total de puntuaciones por letra sea mayor, respectivamente.
+
+La única diferencia con el fichero _partida_letras_ es el aumento de eficiencia a la hora de obtener palabras del diccionario, pues se utiliza el iterador "possible_words_iterator".
+
+> partida_letras_eficiente \<Fichero_Diccionario\> \<Fichero_Info_Letras_Cantidad_Y_Puntuaciones\> \<Modo_de_Juego\> \<Cantidad_Letras\>
+
+@param <Fichero_Diccionario> Fichero con las palabras del diccionario que manejaremos.
+@param <Fichero_Info_Letras_Cantidad_Y_Puntuaciones> Fichero con la información sobre las puntuaciones de cada letra. Tiene 3 columnas: Letra, Cantidad y Puntos.
+@param <Modo_de_Juego> Si es "L", se proporcionan las palabras de mayor longitud. Si es "P", las de mayor puntuación según _Fichero_Info_Letras_Cantidad_Y_Puntuaciones_.
+@param <Cantidad_Letras> Número máximo de letras con el que se jugará.
+
+@page ANALISIS_EFICIENCIA
+
+Haremos un análisis de eficiencia sobre la partida de letras. Es decir, veremos la eficiencia del código para extraer palabras posibles utilizando los dos tipos de iteradores que hemos definido: Dictionary::iterator y Dictionary::possible_words_iterator.
+
+La diferencia entre ambos es que Dictionary::iterator forma todas las palabras del diccionario y tras esto, getSolutions toma aquellas que sean válidas y que cumplan con el modo de juego establecido.
+Sin embargo, Dictionary::possible_words_iterator forma solo aquellas palabras del diccionario que contengan letras válidas, descartando recorrer aquellas que ya contengan letras no válidas.
+Por tanto, getSolutions ya no ha de comprobar si son palabras válidas y solo se asegura de tomar aquellas que cumplan con el modo de juego establecido.
+
+*/
+

@@ -1,0 +1,5 @@
+nombre="salida"-`date +%Y-%j-%T-$$`
+echo LOGNAME=$LOGNAME >> $nombre
+echo HOME=$HOME>> $nombre
+echo y ahora la orden set >> $nombre
+set >> $nombre
